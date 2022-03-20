@@ -190,7 +190,7 @@
 export default {
   data() {
     return {
-      strTime: `0 Hours`,
+      strTime: `0 hours`,
       ruleForm: {
         date: "",
         hours: "",
@@ -295,7 +295,7 @@ export default {
     this.$data.strTime = `${this.$store.state.items.reduce(
       (acc, { hours }) => acc + Number(hours),
       0
-    )} Hours`;
+    )} hours`;
   },
   name: "IndexPage",
 };
